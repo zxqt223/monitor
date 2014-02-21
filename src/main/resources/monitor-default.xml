@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>mobilephone.message.service.url</name>
+    <value></value>
+    <description>this url is mobile phone message service address</description>
+  </property>
+  <property>
+    <name>mobilephone.message.service.http.get.request</name>
+    <value>true</value>
+    <description>Mobilephone message service http get request or not</description>
+  </property>
+  <property>
+    <name>email.service.url</name>
+    <value></value>
+    <description>this url is email service address</description>
+  </property>
+  <property>
+    <name>email.service.http.get.request</name>
+    <value>true</value>
+    <description>Email service http get request or not</description>
+  </property>
+  <property>
+    <name>metrics.update.interval</name>
+    <value>300</value>
+    <description>MetricsManager update every metrics interval,the unit is second</description>
+  </property>
+  <property>
+    <name>warning.count.threshold</name>
+    <value>3</value>
+    <description>Warning count ,default 3</description>
+  </property>
+  <property>
+    <name>disk.used.threshold</name>
+    <value>0.8</value>
+    <description>Disk used ratio,default 80%</description>
+  </property>
+  <property>
+    <name>memory.used.threshold</name>
+    <value>0.9</value>
+    <description>Memory used ratio,default 90%</description>
+  </property>
+  <property>
+    <name>email.from.address</name>
+    <value></value>
+    <description>email sender address</description>
+  </property>
+  <property>
+    <name>email.from.password</name>
+    <value></value>
+    <description>email sender password</description>
+  </property>
+  <property>
+    <name>email.alarm.handler</name>
+    <value>com.zhangyue.monitor.handler.impl.DefaultMailHandler</value>
+    <description>email handler warning message</description>
+  </property>
+  <property>
+    <name>http.handler</name>
+    <value>com.zhangyue.monitor.handler.impl.DefaultHTTPHandler</value>
+    <description>mobile phone handler warning message</description>
+  </property>
+  <property>
+    <name>old.generation.collector.names</name>
+    <value>MarkSweepCompact,PS MarkSweep,ConcurrentMarkSweep</value>
+    <description>all old generation collectors name</description>
+  </property>
+</configuration>
